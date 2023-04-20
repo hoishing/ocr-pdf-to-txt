@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "pdf-ocr"
+name = "pdf-to-txt"
 version = "0.1.0"
 description = ""
 authors = ["Kelvin Ng <hoishing@gmail.com>"]
 readme = "README.md"
-packages = [{include = "pdf_ocr"}]
+packages = [{ include = "pdf_ocr" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
